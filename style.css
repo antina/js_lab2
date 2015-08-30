@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.divblock{
+	border: 1px solid black;
+	min-height: 50px;
+	padding: 5px;
+	margin: 5px;
+}
+#div1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+#div4 div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	display: none;
+}
+#div4 div:first-child{
+	display: block;
+}
+.active{
+	background-color: green;
+}
+#div5{
+	width: 200px;
+	height:200px;
+}
+#div5 input{
+    width: 50px;
+    height: 45px;
+    margin-bottom: 2px;
+}
+#div6{
+	width: 200px;
+	border:1px solid black;
+}
+ul{
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+#div7{
+	width: 80px;
+	height: 20px;
+	border: 1px solid black;
+}
+#div8{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	border: 1px solid black;
+	display: none;
+}
+#photobox{
+	width: 800px;
+	height: 215px;
+	margin: auto auto;
+	background-color: red;
+	overflow: hidden;
+	position: relative;
+}
+#photos{
+	width: 1600px;
+    position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#photos li{
+	width: 200px;
+	height: 215px;
+	float: left;
+}
+.divblock1{
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+}
+#div9{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	left: -150px;
+	background-color: green;
+}
+#span1{
+	width: 20px;
+	height: 70px;
+	line-height: 20px;
+	position: absolute;
+	right: -20px;
+	top: 70px;
+	background-color:blue;
+	color: white;
+}

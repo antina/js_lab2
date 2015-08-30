@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>测试</title>
+    </head>
+    <body>
+        <div class="divblock">
+            <input type="button" value="改变高度" onclick="setStyle('height','400px')"/>
+            <input type="button" value="改变宽度" onclick="setStyle('width','400px')"/>
+            <input type="button" value="改变颜色" onclick="setStyle('background-color','green')"/>
+            <div id="div1"></div>
+        </div>
+        <div class="divblock">
+            <input type="button" value="全选" onclick="allChecked()" />
+            <input type="button" value="反选" onclick="checkedReversed()"/>
+            <div id="div2">
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+            </div>
+        </div>
+        <div class="divblock">
+            <div id="div3">
+                <input type="button" value="新闻" class="active" />
+                <input type="button" value="图片"/>
+                <input type="button" value="娱乐"/>
+                <input type="button" value="体育"/>
+            </div>
+            <div id="div4">
+                <div>111</div>
+                <div>222</div>
+                <div>333</div>
+                <div>444</div>
+            </div>
+        </div>
+        <div class="divblock">
+        	<div id="div5">
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        		<input type="button"/>
+        	</div>
+        	<div id="div6">
+        		<h3>1月份到啦</h3>
+        		<p>本月活动是。。。。</p>
+        	</div>
+        </div>
+        <div class="divblock">
+            <ul id="ul7">
+                <li>aaaaaaaa</li>
+                <li>bbbbbbbb</li>
+                <li>cccccccccc</li>
+                <li>dddddddddddd</li>
+                <li>eeeeeeeeee</li>
+                <li>fffffffffff</li>
+                <li>ggggggggg</li>
+                <li>hhhhhhhhhhh</li>
+            </ul>
+        </div>
+        <div class="divblock">
+        <p><input id="seconds" type="text" placeholder="请输入秒数">秒</p>
+        <input id="changetime" type="button"  value="换算时间"/>
+        <p id="timechange"></p>
+        </div>
+        <div class="divblock">
+            <p id="showtime"></p>
+        </div>
+        <div class="divblock">
+            <div id="div7">个人资料</div>
+            <div id="div8">巴拉巴拉巴拉巴拉</div>
+        </div>
+        <div class="divblock">
+        <div id="photobox">
+            <ul id="photos">
+                <li><img src="img/1.png"/></li>
+                <li><img src="img/2.png"/></li>
+                <li><img src="img/3.png"/></li>
+                <li><img src="img/4.png"/></li>
+            </ul>
+        </div>
+        </div>
+        <div class="divblock">
+            <input id="content1" type="text"/>
+            <input id="btn1" type="button" value="添加"/>
+            <ul id="content2"></ul>
+        </div>
+        <div class="divblock">
+        姓名：<input type="text" id="content3"/>
+        年龄：<input type="text" id="content4"/>
+        <input type="button" id="btn2" value="添加"/><br/>
+        <input type="text" id="content5"/>
+        <input type="button" id="btn3" value="搜索"/>
+        <table id="tab1" border="1" width="500">
+            <thead id="thd1">
+                <td>编号</td>
+                <td>姓名</td>
+                <td>年龄</td>
+                <td>操作</td>
+            </thead>
+            <tbody id="tby1">
+                <tr>
+                    <td>1</td>
+                    <td>Nunu</td>
+                    <td>27</td>
+                    <td><a href="javascript:;">删除</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Diudiu</td>
+                    <td>26</td>
+                    <td><a href="javascript:;">删除</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>张三</td>
+                    <td>23</td>
+                    <td><a href="javascript:;">删除</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>李四</td>
+                    <td>26</td>
+                    <td><a href="javascript:;">删除</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="divblock">
+        <input id="btn4" type="button" value="排序"/>
+            <ul id="sortlist">
+                <li>34</li>
+                <li>67</li>
+                <li>22</li>
+                <li>9</li>
+                <li>54</li>
+            </ul>
+        </div>
+        <div class="divblock1">
+            <div id="div9">
+                <span id="span1">分享到</span>
+            </div>
+        </div>
+        <div class="divblock"></div>
+        <script type="text/javascript" src="test.js"></script>
+    </body>
+</html>
