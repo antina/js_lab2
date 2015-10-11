@@ -1,33 +1,33 @@
 *{
-	margin: 0px;
-	padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 .divblock{
-	border: 1px solid black;
-	min-height: 50px;
-	padding: 5px;
-	margin: 5px;
+    min-height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
 }
 #div1{
-	width: 200px;
-	height: 200px;
-	background-color: red;
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
 #div4 div{
-	width: 100px;
-	height: 100px;
-	border: 1px solid black;
-	display: none;
+    display: none;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
 }
 #div4 div:first-child{
-	display: block;
+    display: block;
 }
 .active{
-	background-color: green;
+    background-color: green;
 }
 #div5{
-	width: 200px;
-	height:200px;
+    width: 200px;
+    height: 200px;
 }
 #div5 input{
     width: 50px;
@@ -35,65 +35,65 @@
     margin-bottom: 2px;
 }
 #div6{
-	width: 200px;
-	border:1px solid black;
+    width: 200px;
+    border: 1px solid black;
 }
 ul{
-	padding: 0px;
+    padding: 0;
 }
 li{
-	list-style: none;
+    list-style: none;
 }
 #div7{
-	width: 80px;
-	height: 20px;
-	border: 1px solid black;
+    width: 80px;
+    height: 20px;
+    border: 1px solid black;
 }
 #div8{
-	width: 100px;
-	height: 100px;
-	margin-top: 5px;
-	border: 1px solid black;
-	display: none;
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    border: 1px solid black;
 }
 #photobox{
-	width: 800px;
-	height: 215px;
-	margin: auto auto;
-	background-color: red;
-	overflow: hidden;
-	position: relative;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 215px;
+    margin: auto auto;
+    background-color: red;
 }
 #photos{
-	width: 1600px;
     position: absolute;
-	left: 0px;
-	top: 0px;
+    top: 0;
+    left: 0;
+    width: 1600px;
 }
 #photos li{
-	width: 200px;
-	height: 215px;
-	float: left;
+    float: left;
+    width: 200px;
+    height: 215px;
 }
 .divblock1{
-	width: 100%;
-	height: 200px;
-	border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
 }
 #div9{
-	width: 150px;
-	height: 200px;
-	position: absolute;
-	left: -150px;
-	background-color: green;
+    position: absolute;
+    left: -150px;
+    width: 150px;
+    height: 200px;
+    background-color: green;
 }
 #span1{
-	width: 20px;
-	height: 70px;
-	line-height: 20px;
-	position: absolute;
-	right: -20px;
-	top: 70px;
-	background-color:blue;
-	color: white;
+    line-height: 20px;
+    position: absolute;
+    top: 70px;
+    right: -20px;
+    width: 20px;
+    height: 70px;
+    color: white;
+    background-color: blue;
 }
